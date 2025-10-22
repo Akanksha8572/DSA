@@ -12,3 +12,4 @@ def func(index,subset):
     func(index+1,subset)
 func(0,[])
 print(result)
+# TC =O(2^n) and SC = O(N), where N is stack space
